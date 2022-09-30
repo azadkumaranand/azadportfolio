@@ -136,7 +136,7 @@ span {
 
 .about {
   width: 100%;
-  height: 75vh;
+  height: 70vh;
 }
 
 .abouttag {
@@ -165,13 +165,7 @@ span {
 .abouttag:nth-child(1) {
   text-align: center;
 }
-.services{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 20px;
-}
+
 .sercard{
   width: 300px;
   height: 200px;
@@ -404,7 +398,12 @@ form{
 }
 
 .team_m_img{
-  margin-top: 8px;
+  
+  padding: 8px;
+}
+.team_m_img img{
+  border: 3px solid crimson;
+  border-radius: 50%;
 }
 .team_m_img i,svg{
   font-size: 35px;
@@ -437,6 +436,7 @@ form{
     top: 0px;
     padding-top: 30px;
   }
+  
   .menu li{
     margin: 30px auto;
     width: 25%;
@@ -457,6 +457,12 @@ form{
   .about{
     height: 70vh;
   }
+  .intro{
+    width: 50%;
+  }
+  .img img{
+    height: 50vh;
+  }
 }
 
 @media(max-width: 850px) {
@@ -465,6 +471,21 @@ form{
   }
   .contact{
     height: 60vh;
+  }
+}
+@media(max-width: 700px){
+  .abouttext{
+    width: 300px;
+  }
+  .about{
+    height: 90vh;
+  }
+  .footer{
+    flex-direction: column;
+    margin: auto;
+    height: 450px;
+    justify-content: center;
+    text-align: justify;
   }
 }
 @media(max-width: 600px) {
@@ -486,7 +507,7 @@ form{
     flex-direction: column;
   }
   .about{
-    height: 115vh;
+    height: 140vh;
   }
   .input_box input{
     height: 30px;
@@ -519,25 +540,14 @@ form{
     font-size: 25px;
   }
 }
-@media(max-width: 700px){
-  .abouttext{
-    width: 300px;
-  }
-  .footer{
-    flex-direction: column;
-    margin: auto;
-    height: 450px;
-    justify-content: center;
-    text-align: justify;
-  }
-}
-@media(max-width: 350px){
+
+@media(max-width: 370px){
   .abouttext{
     width: 80%;
   }
   
   .about{
-    height: 120vh;
+    height: 145vh;
   }
   .team_card{
     width: 290px;

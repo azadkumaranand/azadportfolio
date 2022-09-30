@@ -13,6 +13,7 @@ window.onscroll =  ()  =>{
     }
 }
 
+
 const menubar = document.getElementById('menubar');
 const menu = document.getElementById('menu');
 menubar.addEventListener('click', () => {
