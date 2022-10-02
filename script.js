@@ -31,13 +31,13 @@ function checkform(){
     alert('Hey ' + name.value + ' Your form has been submitted')
 }
 var typed = new Typed(".typing", {
-    strings: ["YouTuber", "Desiner", "Freelacer", "Web Developer"],
+    strings: ["YouTuber", "Designer", "Freelancer", "Web Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
 });
 var typed = new Typed(".typing1", {
-    strings: ["YouTuber", "Desiner", "Freelacer", "Web Developer"],
+    strings: ["YouTuber", "Designer", "Freelancer", "Web Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
